@@ -1,0 +1,99 @@
+body{
+    margin: 0px;
+    background: grey;
+    font-family: poppins;
+}
+
+#scoreboard{
+    height: 300px;
+    width: 600px;
+    border: 7px solid whitesmoke;
+    border-radius: 10px;
+    background-image: url(images/marius-christensen-_Ghzg0xvHW0-unsplash.jpg);
+    background-size: cover;
+    max-width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px auto;
+
+}
+
+h1, h2{
+    color: seashell;
+}
+
+.head{
+   font-size: 40px;
+}
+
+.score{
+    border: 2px solid;
+    width: 100px;
+    height: 80px;
+    font-size: 50px;
+    padding: 10px 0px 0px 0px;
+    background: #9BA19Dff;
+    flex-direction: row;
+    text-align: center;
+    
+}
+
+.scoreBtn{
+    padding: 10px 10px;
+    margin: 0px 2px 30px 2px;
+    border-radius: 6px;
+    border: none;
+    color: seashell;
+   
+}
+
+.scoreBtn:hover{
+    background: #DBB380ff;
+    color: black;
+}
+.scoreBtn:active{
+    background: #DBB380ff;
+    color: #DBB380ff;
+}
+
+#oneScore{
+   margin: 0px 0px 0px -5px;
+}
+
+.outSideBtn{
+    display: flex;
+    justify-content: center;
+    margin: 20px 10px 0px 0px;
+}
+
+#savedScore{
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+#reset{
+    margin: 0px 10px 0px 10px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+#save{
+    padding: 10px 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+#save:hover{
+    background: #DBB380ff;
+    color: black;
+}
+
+#reset:hover{
+    background: #DBB380ff;
+    color: black;
+}
